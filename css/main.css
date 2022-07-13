@@ -1,0 +1,894 @@
+body {
+  padding-top: 60px;
+  background-color: #ffffff;
+  color: #555;
+}
+.starter-template {
+  /* padding: 10px 15px 0px; */
+  /* text-align: center; */
+}
+/* -- end starter template */
+
+body .initial-hidden { display: none; }
+
+.now-playing-not-alert ul.dropdown-menu > li.active > a {
+    background-color: #4caf50;
+    color: white;
+}
+
+.alert.now-playing-not-alert {
+    background-color: #4caf50;
+    /* width: 110%; *//* XXX magic to make appear full width on mobile */
+    margin-bottom: 0;
+}
+
+.player-debug {
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    padding: 10px;
+    /* background: #ff5722; */
+    color: white;
+    top: 51px;
+    padding: 0;
+}
+.player-debug i.material-icons {font-size: 20px;}
+
+.playing, .unplayable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 5px;
+    background: #ff5722;
+    border-radius: 5px;
+    border: 3px solid black;
+    display: none;
+}
+.playing {
+  background: #4caf50;
+}
+.playing a {
+    color: #e0e0e0;
+}
+
+#points {
+    position: fixed;
+    opacity: 0.9;
+    right: 0;
+    top: 50px;
+    padding: 2px 6px;
+    border-radius: 0 0 0 10px;
+    z-index: 1;
+
+    display: none;
+}
+@media (max-width: 550px) {
+  #points {
+    /* display: block; */
+  }
+}
+
+.h1, h1 {
+    font-size: 32px;
+}
+
+.navbar-toggle {
+  float: left;
+  margin-right: 0;
+}
+.navbar .navbar-brand {
+    height: 50px; /* consistently 50 instead of 60 above 1199 */
+}
+.navbar .navbar-nav > li > a {
+    padding-top: 15px; /* 15 instead of 20 makes50 instead of 60 like above */
+    padding-bottom: 15px;
+}
+.navbar-nav a > span.subtitle {
+    font-style: italic;
+}
+.navbar.navbar-inverse {
+    background-color: #3ca3f4;
+}
+.navbar.navbar-inverse .dropdown-menu li > a {
+    padding-top: 8px; /* 15 instead of 20 makes50 instead of 60 like above */
+    padding-bottom: 8px;
+}
+.navbar.navbar-inverse .dropdown-menu li > a:hover, .navbar.navbar-inverse .dropdown-menu li > a:focus {
+    color: #3ca3f4;
+}
+.nav.nav-login {
+  float: right;
+}
+#navbar li:hover {
+    background-color: #03a9f4;
+}
+#navbar li {
+    font-weight: 400;
+}
+.navbar img {
+    margin-top: -10px;
+}
+.navbar .navbar-arrow {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar .navbar-arrow-right {
+  float: right;
+  padding-right: 10px;
+}
+@media (min-width: 850px) {
+  .navbar .navbar-arrow {
+    display: none;
+  }
+}
+/*  @media (max-width: 1199px) { */
+  .navbar .navbar-brand {
+    padding: 10px 5px;
+  }
+/* } */
+
+
+.badge-notify {
+    background: red;
+}
+
+/* Facebook profile: TODO float right only when not mobile */
+.nav-login a.dropdown-toggle {
+    float: left;
+    margin-right: -8px;
+}
+.login-link a {
+  float: left;
+}
+a.user-image, .user-image {
+    float: right;
+    margin-top: 4px;
+
+    background: transparent no-repeat top left;
+    background-size: 100%;
+    display: block;
+    text-indent: -999em;
+    width: 42px;
+    height: 42px;
+    border-radius: 22px;
+    box-shadow: 0px 0px 3px #666;
+}
+span.facebook-f {
+    float: left;
+    font-size: 36px;
+    line-height: 46px;
+    display: block;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 8px;
+    margin-left: -8px;
+    padding: 0px 5px 0px 9px;
+}
+.navbar ul.nav-login li.login-link > a.facebook-f-wrapper { padding: 0 0; }
+span.user-score.label {
+    border-radius: 4px;
+    padding: 6px;
+}
+
+#now-playing-daicohen, #now-playing-conan { display: none; }
+.now-playing-not-alert a {
+    color: grey;
+}
+
+/* -------------------------- */
+.choose-comic i.glyphicon, .choose-comic i.material-icons {
+  font-size: 12px;
+}
+.jumbotron.choose-comic p {
+    font-size: 14px;
+}
+.comic-choice-top {
+    cursor: pointer;
+}
+
+.comic-choice .well:hover {
+    background-color: #fffcaa;
+}
+
+
+/* -------------------------- */
+.main {
+  position: relative; /* in order to position audio boxes relative to this */
+  background-repeat: no-repeat;
+  /*height: 1248px;
+  width: 840px;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px; /* space for controls */
+}
+body.mode-gloss-overlay .manga {
+  width: 50%;
+}
+body.mode-gloss-overlay .manga .main {
+  float: right;
+}
+
+@media screen and (max-width: 900px) {
+  body.mode-gloss-overlay .manga {
+    width: initial;
+    margin-top: 35vh; 
+  }
+  body.mode-gloss-overlay .manga .main {
+    /* without this, going to next gloss with gloss still open then it covers the top of the page */
+    /* causes the big white margin on my phone: */
+    /* margin-top: 35vh; */
+    /* TODO when switching pages w/ overlay open, we need to push sccroll down below overlay */
+  }
+}
+
+.controls {
+    position: fixed;
+    bottom: 0;
+}
+.controls button {
+  font-weight: bold;
+}
+.right-controls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 4px;
+}
+
+.cache-layer-2 {
+  display: none;
+}
+.cache-layer-3 {
+  display: none;
+}
+
+body .site-info.jumbotron {
+}
+.quick-info.jumbotron p.lead {
+    font-size: 0.8em;
+}
+
+.alert.alert-dismissible.alert-success {
+    width: 95%;
+}
+
+body .container .jumbotron.site-news {
+    margin-bottom: 5px;
+    padding-bottom: 1px;
+}
+
+.container .jumbotron.quick-info {
+    padding-bottom: 1px;
+}
+body .signup-info.jumbotron {
+    opacity: 0.97;
+    background-color: #FFECB3;
+    position: fixed;
+    bottom: 32px;
+    height: 75%;
+    width: 90%;
+}
+body .main .jumbotron.signup-info {
+    height: 100%;
+    top: 50px;
+    width: 100%;
+    left: 0;
+    overflow: scroll;
+}
+body .main .jumbotron {
+    position: fixed;
+    bottom: 32px;
+    height: 65%;
+    width: 90%;
+}
+
+.close-dialog {
+    position: relative;
+    right: -10px;
+    top: -10px;
+    float: right;
+}
+.close-dialog i.material-icons {
+    color: #03a9f4;
+}
+.panel-heading .close-dialog i.material-icons,
+.modal-backdrop .close-dialog i.material-icons {
+    color: white;
+}
+
+.btn {
+    padding: 8px 8px;
+}
+
+.explain-button i.material-icons {
+    color: green;
+}
+
+.explain-button {
+    font-size: 24px;
+}
+.explain-button .list-group .list-group-item {
+  padding: 0 4px;
+}
+
+/* makes buttons with icons same height */
+.btn i.material-icons {
+    line-height: 15px;
+}
+/* -- Voice over */
+.panebox {
+    display: none;
+    /* background-color: #47DAFF; */
+    opacity: 0.6;
+    position: absolute;
+    border: 1px solid #a0a0a0;
+    /* width: 100px; */
+    height: 100px;
+
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+    cursor: pointer;
+}
+.panebox.active, .panebox:hover {
+    opacity: 0.9;
+    border: 3px solid yellow;
+}
+.panebox button {
+    font-weight: bold;
+    margin-left: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: black;
+}
+.audio-lower-buttons {
+  position: absolute;
+  bottom: 0;
+}
+button.play-slow span {
+    color: green;
+}
+.panebox i.material-icons {
+    color: green;
+    font-size: 1.5em;
+}
+
+/* XXX TODO put positions in data/array */
+div#audio-unavailable {
+    width: 100%;
+    height: 93%;
+    top: 3%;
+    left: 0%;
+    cursor: not-allowed;
+    font-size: 24px;
+    opacity: 1;
+}
+
+#btn-layer1::first-letter,
+#btn-layer2::first-letter,
+#btn-next-pane::first-letter,
+#btn-layer3::first-letter {
+    text-decoration: underline;
+}
+
+/* comic-specific */
+
+button#btn-layer2 {
+    display: none;
+}
+body.comic-daicohen button#btn-layer2 {
+    display: block;
+}
+@media screen and (max-width: 900px) {
+  /* fixes top offset as you go down on phone */
+  body.comic-conanch1_1 .main { min-height: 0 !important; }
+  body.comic-doraplus1 .main { min-height: 0 !important; }
+  body.comic-doraplus1ch2 .main { min-height: 0 !important; }
+  body.comic-doraplus1ch3 .main { min-height: 0 !important; }
+}
+
+.panebox {
+    border: 2px dashed black;
+}
+
+.youtube-wrapper {
+  max-width: 250px;
+  position: fixed;
+  top: 80px;
+  padding-right: 15px;
+  background-color: rgb(194, 197, 194);
+}
+
+/* from tooltipster/css/themes/tooltipster-punk.css */
+.tooltipster-punk {
+        border-radius: 5px; 
+        border-bottom: 5px solid #f71169;
+        background: #4a4a4a;
+        color: #fff;
+}
+.tooltipster-punk .tooltipster-content {
+        /* font-family: 'Courier', monospace; */
+        font-size: 17px;
+        line-height: 16px;
+        padding: 12px 12px;
+}
+
+span.longer-title {
+  font-size: 0.7em;
+}
+
+
+/* moves manga to left, gloss-overlay to right */
+body.mode-gloss-overlay .manga.container {
+  margin-left: 0;
+}
+
+
+.gloss-overlay {
+    background-color: #21202d;
+    border: 2px solid yellow;
+    z-index: 10;
+    margin-top: 50px; /* clear the navbar */
+    overflow: scroll;
+    left: initial;
+    width: 50%;
+}
+@media screen and (max-width: 900px) {
+  .gloss-overlay {
+    width: 100%;
+    height: 35vh;
+  }
+}
+
+.gloss-overlay .close-dialog a {
+    color: #21202d;
+}
+.gloss-overlay-bottom {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+}
+@media screen and (max-width: 900px) {
+  .gloss-overlay-bottom {
+    display: none;
+  }
+}
+
+.gloss-translation-sentence {
+    color: #d4f3c8;
+    font-size: 1.1em;
+    word-spacing: 0.3em;
+    text-align: center;
+}
+.gloss-line {
+    border-top: 2px dashed white;
+    padding: 5px;
+    text-align: center;
+}
+.gloss-line.line-first { border-top: none; }
+
+.gloss-word-wrapper {
+    display: inline-block;
+    border-left: 1px dashed #d4f3c8;
+    padding: 2px 4px;
+}
+.gloss-word-wrapper.word-first { border-left: none; }
+
+.gloss-word.original {
+    color: white;
+}
+.gloss-word.translation {
+    font-style: italic;
+    color: #75bb6a;
+}
+.gloss-word.ipa a {
+    color: #4698de;
+}
+
+span.keyboardkey {
+    border: 1px solid black;
+    padding: 1px 6px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #444;
+    color: #d2d2d2;
+    background: #585858;
+    color: #4a4a4a;
+    text-transform: initial;
+    background: #ccc;
+    margin-right: 4px;
+}
+
+span.khung-key-title {
+    font-size: .7em;
+    font-style: italic;
+    text-transform: initial;
+    text-shadow: 0px 1px 2px #35693e;
+}
+
+.gloss-next-pane {
+    float: right;
+    padding-right: 10px;
+}
+
+.quiz-overlay {
+/*    background-color: rgba(86, 95, 86, 0.9); */
+    background-color: rgba(189, 189, 189, 0.3);
+    overflow: scroll;
+    z-index: 10;
+}
+.quiz-question-wrapper {
+  position: absolute;
+  min-height: 300px;
+  margin-top: 20vh;
+  color: #f0f0f0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: #2abbdc;
+  border-radius: 3px;
+}
+.quiz-question-wrapper.pre-confirm {
+  min-height: 0;
+  width: 50%;
+}
+.quiz-question {
+    font-size: 2.5em;
+}
+.pre-confirm .quiz-question {
+    font-size: 2em;
+}
+.pre-confirm .quiz-answers,
+.pre-confirm .quiz-dictation,
+.pre-confirm .quiz-mistake {
+  display: none;
+}
+
+
+.quiz-dictation input.dictation-input {
+    font-size: 21px;
+    letter-spacing: 2px;
+    /*color: white;*/
+    color: #4a4a4a;
+    padding: 10px;
+    background-image: none;
+    border: 1px solid white;
+}
+.quiz-dictation input.dictation-correct, .quiz-dictation input.dictation-correct[disabled] {
+  border: solid 5px #4caf50;
+}
+.quiz-dictation input.dictation-incorrect, .quiz-dictation input.dictation-incorrect[disabled] {
+  border: solid 5px #f44336;
+}
+
+span.explain > span {
+    font-style: italic;
+}
+
+@media screen and (max-width: 900px)  {
+  .quiz-question-wrapper {
+      width: 85%;
+      overflow: scroll;
+      margin-top: 60px;
+      max-height: 90vh;
+      min-height: 350px;
+  }
+  .quiz-question-wrapper {
+      width: 100%;
+      overflow: scroll;
+      margin-top: 50px;
+      max-height: 100vh;
+      min-height: 350px;
+  }
+}
+@media screen and (max-height: 400px)  {
+  .quiz-question-wrapper {
+    min-height: 270px;
+    max-height: 85vh;
+    width: 95%;
+    margin-top: 51px;
+  }
+  .quiz-question-wrapper .quiz-correctness {
+    height: initial;
+    min-height: 250px;
+  }
+  .quiz-question {
+    font-size: 1.8em;
+    line-height: 1.2em;
+  }
+}
+
+.quiz-answers .checkbox {
+    border: 1px solid #33589c;
+    padding: 4px 10px;
+    border-radius: 2px;
+    background-color: #2e73b7;
+}
+
+.quiz-answers .checkbox span.check {
+    border-color: #f0f0f0;
+}
+
+.quiz-question-wrapper .quiz-answers label {
+    width: 100%; /* makes whole box clickable to answer */
+    font-size: 21px;
+    line-height: 27px;
+    color: #f0f0f0;
+}
+
+.quiz-correctness {
+    position: absolute;
+    top: 5%;
+    color: #ffffff;
+    font-size: 3em;
+    width: 80%;
+    height: 90%;
+    margin-left: 10%;
+    padding: 10px 0 0 0;
+    /* border-radius: 10px; */
+    box-shadow: 2px 2px 6px #3e2424;
+}
+
+.quiz-correctness.dictation-correctness {
+  position: relative;
+  top: 0;
+  padding: 0;
+}
+.quiz-correctness-top {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.quiz-correctness.correct {
+    background-color: #81d25e;
+    border: 0px #2fe22f;
+}
+.quiz-correctness.incorrect {
+    background-color: #f13737;
+    border: 0px #2fe22f;
+}
+.quiz-correctness .btn.btn-primary {
+    color: white;
+}
+
+.quiz-correctness a.btn.btn-raised.btn-success {
+    padding: 14px;
+}
+
+.quiz-question.quiz-mistake a {
+    color: white;
+    border-bottom: 1px dotted #bbddea;
+}
+
+.checkbox input[type=checkbox]:checked + .checkbox-material .check {
+    color: white;
+    border-color: white;
+}
+
+.checkbox input[type=checkbox]:checked + .checkbox-material .check:before {
+    color: white;
+}
+
+.quiz-correctness a {
+    color: white;
+}
+.quiz-correctness .correctness-value {
+  text-shadow: 1px 1px 3px #093806;
+  font-weight: bold;
+}
+
+.score-wrapper span {
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 30px;
+    color: #989393;
+}
+span.badge.score {
+    font-size: 48px;
+    color: white;
+}
+.score-wrapper {
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #888888;
+    width: 100%;
+    left: 0;
+    background-color: ivory;
+    font-size: 30px;
+}
+.score-wrapper.dictation-score-wrapper {
+    position: relative;
+}
+
+span.checkbox-material {
+    margin-right: 8px;
+}
+.quiz-answers {
+    font-size: 1.5em;
+    margin-left: 0px;
+    margin-top: 0;
+}
+.radio label span.circle {
+    border-color: #f0f0f0;
+}
+
+.quiz-answers .radio label {
+    color: #f0f0f0;
+}
+
+/* -- Responsive -- */
+
+@media (max-width: 375px) {
+}
+@media (max-width: 390px) {
+  .btn {
+    font-size: 11px;
+  }
+}
+
+.help-rotate { display: none; }
+/* as wide as a Nexus 6p */
+@media (max-width: 435px) and (orientation:portrait) {
+  body {
+    padding-top: 50px;
+  }
+  /* rotate screen message on portrait mobile */
+  body.comic-conan .help-rotate {
+    display: block;
+    color: #a0a0a0;
+    position: absolute;
+    bottom: 35px;
+  }
+
+  body.comic-conan .help-rotate p {
+    margin-left: 6px;
+    float: right;
+    margin-top: 2px;
+  }
+}
+
+@media (max-width: 550px) {
+  .navbar img {
+    margin-top: -7px;
+    height: 45px;
+  }
+  span.longer-title {
+    display: none;
+  }
+  .btn {
+    padding: 6px 6px;
+  }
+  body .main .jumbotron {
+    height: initial;
+  }
+  .jumbotron p {
+    font-size: 0.9em;
+  }
+}
+/* Fix right side image getting cut off when ~770px */
+@media (min-width: 768px) and (max-width: 900px) {
+  .manga.container {
+    /* width: 750px; */
+    width: initial;
+  }
+}
+
+@media screen and (max-width: 900px)  {
+  nav.navbar.navbar-inverse {
+    opacity: 0.9;
+  }
+  /* adds left-side space on N5X for D+1 */ .manga.container { padding: 0px; } /*.manga.container { padding: 8px; } */
+  .quick-info.keyboard-tips { display: none; }
+}
+
+@media screen and (min-width: 901px)  {
+  .main {
+    min-height: 1240px;
+    width: 860px;
+  }
+  body.comic-conan .main {
+    width: 720px;
+  }
+  body.comic-conan .manga.container {
+    width: 720px;
+  }
+  body .main .jumbotron {
+    width: 860px;
+  }
+  .quick-info.keyboard-tips { display: block; }
+}
+@media screen and (max-width: 640px) {
+  body.comic-conan .main {
+    /* min-height: 600px; */
+  }
+}
+@media screen and (max-width: 900px) {
+  .main {
+    background-size: contain;
+    /*min-height: 1240px; */ /* this is way too big XXX */
+    /* min-height: 640px; weird white bottom area on Nexus 5X */
+    /* min-height: 670px; breaks Chap 4 on Nexus 5X */
+    /* unneeded width: 100%; */
+    /* margin: 0 -8px; */
+  }
+  body.comic-daicohen .main {
+    width: 104%; /* this worked for Daicohen, not Conan */
+  }
+  body.comic-conan .main {
+    width: 100%; /* tweak for Conan */
+  }
+}
+@media screen and (max-width: 1015px) { 
+  span.comment-explain {
+    display: none;
+  }
+  .now-playing-not-alert { display: none; }
+}
+@media (min-width: 992px) {
+  .manga.container {
+    width: 860px;
+    padding: 0 0 0 0;
+  }
+}
+/* XXX woops, smaller screen needs to come after larger to override */
+@media (max-width: 375px) {
+  .main {
+    min-height: 560px;
+    width: 112%;
+  }
+}
+@media (max-width: 360px) {
+  .main {
+    min-height: 544px;
+    width: 114%;
+  }
+}
+@media (max-width: 320px) {
+  .controls {
+    padding-right: 20px;
+  }
+  .main {
+    min-height: 500px;
+    width: 118%;
+  }
+
+}
+@media (min-width: 450px) and (max-width: 599px) {
+  .main {
+    min-height: 800px;
+  }
+  .main .jumbotron {
+    max-width: 560px;
+  }
+}
+@media (min-width: 600px) and (max-width: 899px) {
+  body.comic-conan .main {
+    min-height: 1024px;
+  }
+  .main .jumbotron {
+    max-width: 760px;
+  }
+}
+
+
+/* tweak tutor form */
+.form-group.is-focused label, .form-group.is-focused label.control-label {
+    color: #f8f8f8;
+}
+.form-control, .form-group .form-control {
+  background-color: #fff;
+}
+.form-group.is-focused .radio label:hover, .form-group.is-focused .radio label:focus {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.tutor-info input.form-control,
+.tutor-info textarea {
+  max-width: 400px;
+}
+.tutor-info p { }
+#tutor-copytext {
+    max-width: 800px;
+  }

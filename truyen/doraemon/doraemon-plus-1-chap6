@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Vừa đọc &laquo;Doraemon Plus Vol 1 Chap 6: Socola Đoàn Kết&raquo; vừa học tiếng Anh! Mèo Ú English là gì? Bạn rất yêu thích Chú Mèo Máy và muốn học tiếng Anh? Ai mà không thích Doraemon phải không nào? Kể từ bây giờ bạn vừa có thể đọc truyện thoả thích vừa có thể học tiếng Anh một cách đơn giản và hiệu quả nhất! Hãy cùng vui học tiếng Anh với chú Mèo Máy Doraemon thân thiện vui tính tại MeoUEnglish.com nhé!"/>
+
+    <title>Doraemon Plus Vol 1 Chap 6: Socola Đoàn Kết @ MèoÚEnglish.com - Nơi bạn học tiếng Anh qua những bửu bối thần kỳ của Mèo Ú Doraemon</title>
+  <style>body .initial-hidden { display: none ;}</style>
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- tooltipster -->
+  <link rel="stylesheet" type="text/css" href="/css/tooltipster.css" />
+  <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/bsmd/css/bootstrap-material-design.css">
+  <link rel="stylesheet" type="text/css" href="/bsmd/css/ripples.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  <script type="text/javascript" src="/js/main.js"></script>
+  <script>MeoU.comic = 'doraplus1ch6';MeoU.comic_export = {"daicohen":{"title":"Doraemon Daicohen: Chú Khủng Long Của Nobita","slug":"doraemon/chu-khung-long-cua-nobita","about":"After bringing a fossilized egg back to life with the Time Cloth, Nobita finds himself the owner of a baby dinosaur. Everything is fine until it grows up. Nobita and friends use Doraemon's time machine to return it back to its own time."},
+"conan":{"title":"Thám Tử Lừng Danh Conan: Detective Conan","slug":"conan/tham-tu-conan","about":"Kudo is a high school detective who sometimes works with the police to solve cases."},"conanch1_1":{"title":"Thám Tử Lừng Danh Conan: Detective Conan","slug":"conan/tham-tu-conan","about":"Kudo is a high school detective who sometimes works with the police to solve cases."},
+"conanch1_2":{"title":"Thám Tử Lừng Danh Conan: Detective Conan Chap 1-2","slug":"conan/tham-tu-conan-chap1-2","about":"Kudou and his female friend Ran go to the amusement park when they're witness to a serious accident. Foul play is suspected."},
+"conanch1_3":{"title":"Thám Tử Lừng Danh Conan: Detective Conan Chap 1-3","slug":"conan/tham-tu-conan-chap1-3","about":"Kudo is a high school detective who sometimes works with the police to solve cases."},
+"conanch1_4":{"title":"Thám Tử Lừng Danh Conan: Detective Conan Chap 1-4","slug":"conan/tham-tu-conan-chap1-4","about":"Kudo is a high school detective who sometimes works with the police to solve cases."},
+"doraplus1":{"title":"Doraemon Plus Vol 1: Khăn Trải Bàn Thần Kỳ","slug":"doraemon/doraemon-plus-1","about":"Unable to feed themselves, Doraemon and Nobita find a way to make food magically appear."},
+"doraplus1ch2":{"title":"Doraemon Plus Vol 1 Chap 2: Găng Tay Chọc Lét","slug":"doraemon/doraemon-plus-1-chap2","about":"Doraemon produces a magical tickling glove so that Nobita can get revenge against Suneo and Giant."},
+"doraplus1ch3":{"title":"Doraemon Plus Vol 1 Chap 3: Biết Đi Đường Nào","slug":"doraemon/doraemon-plus-1-chap3","about":"Nobita thinks he can solve all his problems with a time machine but it might be more complicated than he thinks."},
+"doraplus1ch4":{"title":"Doraemon Plus Vol 1 Chap 4: Tấm Vé Thay Thế","slug":"doraemon/doraemon-plus-1-chap4","about":"Doraemon's solution for a missing object is a special substitute sticker."},
+"doraplus1ch5":{"title":"Doraemon Plus Vol 1 Chap 5: Du Lịch Bằng Mây","slug":"doraemon/doraemon-plus-1-chap5","about":"A special cloud which can be split in half and make legs and head travel independently."},
+"doraplus1ch6":{"title":"Doraemon Plus Vol 1 Chap 6: Socola Đoàn Kết","slug":"doraemon/doraemon-plus-1-chap6","about":"When Nobita and friends are bullied by Giant, it's up to Doraemon to help Nobita fend off the big boy."},
+"doraplus1ch7":{"title":"Doraemon Plus Vol 1 Chap 7: Chú Chó Giữ Bí Mật","slug":"doraemon/doraemon-plus-1-chap7","about":"Nobita's poor performance at school needs to be kept a secret, but that's not the only secret!"},
+"doraplus1ch8":{"title":"Doraemon Plus Vol 1 Chap 8: Máy Quay Phim Phiền Phức","slug":"doraemon/doraemon-plus-1-chap8","about":"Doraemon can put Nobita on television but is that what he really wants?"},
+"doraplus1ch9":{"title":"Doraemon Plus Vol 1 Chap 9: Bong Bóng Tập Trung","slug":"doraemon/doraemon-plus-1-chap9","about":"Nobita knows he just needs to learn how to focus. The solution? A Concentration Soap Bubble!"},
+"doraplus1ch10":{"title":"Doraemon Plus Vol 1 Chap 10: Máy Sửa Ảnh Như Ý","slug":"doraemon/doraemon-plus-1-chap10","about":"Nobita and the gang go on a hiking trip but some of the best memories aren't captured by Suneo's camera. Can Doraemon and his devices save the day?"},
+"doraplus1ch11":{"title":"Doraemon Plus Vol 1 Chap 11: Thỏi Son Con Voi","slug":"doraemon/doraemon-plus-1-chap11","about":"Tired of Giant's bullying, Shizuka-chan asks Doraemon for help. Nobita isn't the only one using the robot cat's tricks!"},
+"doraplus1ch12":{"title":"Doraemon Plus Vol 1 Chap 12: Bông Hoa Phát Nhạc","slug":"doraemon/doraemon-plus-1-chap12","about":"Happy birthday Shizu-chan! It's our favorite girl's birthday but nobody knows what gift to get her! How about a music box?"},
+"doraplus1ch13":{"title":"Doraemon Plus Vol 1 Chap 13: Chân Nến Ảo Giác","slug":"doraemon/doraemon-plus-1-chap13","about":"Just imagine any scene... and you're there! It's all in your mind. But is it real?"},
+"doraplus1ch14":{"title":"Doraemon Plus Vol 1 Chap 14: Con Ong May Mắn","slug":"doraemon/doraemon-plus-1-chap14","about":"Bees - are they good or bad? It is all a matter of perspective."}};MeoU.enable_firebase = true;</script>
+
+  </head>
+  <body>
+    <div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+
+  FB.Event.subscribe('edge.create', function(url, widget) {
+      var jumbotron_name = $(widget).parent('.jumbotron').attr('class').replace('jumbotron', '').trim();
+      ga('send', 'social', 'facebook', 'like', url + ' : ' + jumbotron_name);
+      sendGaEvent('FB like from ' + jumbotron_name);
+  });
+};
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand navbar-arrow" onclick="sendGaEvent('Top prev'); prev_page();"><span class="glyphicon glyphicon glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+          <a class="navbar-brand" href="http://www.meouenglish.com/"><img src="/img/logontext.png" title="Mèo Ú English logo" alt="Mèo Ú English"><!-- <span class="longer-title">Học Tiếng Anh với </span>Mèo Ú English --></a>
+          <a href="#" class="navbar-brand navbar-arrow navbar-arrow-right" onclick="sendGaEvent('Top next'); next_page();"><span class="glyphicon glyphicon glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <div id="navbar-dynamic-replace"><ul class="nav navbar-nav">
+<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-target="#" data-toggle="dropdown" href="#" role="button" aria-controls="navbar" aria-haspopup="true" aria-expanded="false">Doraemon<span class="caret"></span></a><ul class="dropdown-menu">
+<li><a href="/truyen/doraemon/chu-khung-long-cua-nobita" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('daicohen'); return false;"><i id="checkbox-daicohen" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Daicohen<span class="subtitle"> Chú Khủng Long Của Nobita</span></a></li>
+<li><a href="/truyen/doraemon/doraemon-plus-1" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('doraplus1'); return false;"><i id="checkbox-doraplus1" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Plus Vol 1<span class="subtitle"> Khăn Trải Bàn Thần Kỳ</span></a></li>
+<li><a href="/truyen/doraemon/doraemon-plus-1-chap2" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('doraplus1ch2'); return false;"><i id="checkbox-doraplus1ch2" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Plus Vol 1 Chap 2<span class="subtitle"> Găng Tay Chọc Lét</span></a></li>
+<li><a href="/truyen/doraemon/doraemon-plus-1-chap3" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('doraplus1ch3'); return false;"><i id="checkbox-doraplus1ch3" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Plus Vol 1 Chap 3<span class="subtitle"> Biết Đi Đường Nào</span></a></li>
+<li><a href="/truyen/doraemon/doraemon-plus-1-chap4" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('doraplus1ch4'); return false;"><i id="checkbox-doraplus1ch4" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Plus Vol 1 Chap 4<span class="subtitle"> Tấm Vé Thay Thế</span></a></li>
+<li><a href="/truyen/doraemon/doraemon-plus-1-chap5" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('doraplus1ch5'); return false;"><i id="checkbox-doraplus1ch5" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Plus Vol 1 Chap 5<span class="subtitle"> Du Lịch Bằng Mây</span></a></li>
+<li><a href="/truyen/doraemon/doraemon-plus-1-chap6" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('doraplus1ch6'); return false;"><i id="checkbox-doraplus1ch6" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Plus Vol 1 Chap 6<span class="subtitle"> Socola Đoàn Kết</span></a></li>
+<li><a href="/truyen/doraemon/doraemon-plus-1-chap7" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('doraplus1ch7'); return false;"><i id="checkbox-doraplus1ch7" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Plus Vol 1 Chap 7<span class="subtitle"> Chú Chó Giữ Bí Mật</span></a></li>
+<li><a href="/truyen/doraemon/doraemon-plus-1-chap8" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('doraplus1ch8'); return false;"><i id="checkbox-doraplus1ch8" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Plus Vol 1 Chap 8<span class="subtitle"> Máy Quay Phim Phiền Phức</span></a></li>
+<li><a href="/truyen/doraemon/doraemon-plus-1-chap9" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('doraplus1ch9'); return false;"><i id="checkbox-doraplus1ch9" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Plus Vol 1 Chap 9<span class="subtitle"> Bong Bóng Tập Trung</span></a></li>
+<li><a href="/truyen/doraemon/doraemon-plus-1-chap10" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('doraplus1ch10'); return false;"><i id="checkbox-doraplus1ch10" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Plus Vol 1 Chap 10<span class="subtitle"> Máy Sửa Ảnh Như Ý</span></a></li>
+<li><a href="/truyen/doraemon/doraemon-plus-1-chap11" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('doraplus1ch11'); return false;"><i id="checkbox-doraplus1ch11" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Plus Vol 1 Chap 11<span class="subtitle"> Thỏi Son Con Voi</span></a></li>
+<li><a href="/truyen/doraemon/doraemon-plus-1-chap12" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('doraplus1ch12'); return false;"><i id="checkbox-doraplus1ch12" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Plus Vol 1 Chap 12<span class="subtitle"> Bông Hoa Phát Nhạc</span></a></li>
+<li><a href="/truyen/doraemon/doraemon-plus-1-chap13" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('doraplus1ch13'); return false;"><i id="checkbox-doraplus1ch13" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Doraemon Plus Vol 1 Chap 13<span class="subtitle"> Chân Nến Ảo Giác</span></a></li></ul></li>
+<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-target="#" data-toggle="dropdown" href="#" role="button" aria-controls="navbar" aria-haspopup="true" aria-expanded="false">Conan<span class="caret"></span></a><ul class="dropdown-menu">
+<li><a href="/truyen/conan/tham-tu-conan" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('conanch1_1'); return false;"><i id="checkbox-conanch1_1" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Thám Tử Lừng Danh Conan<span class="subtitle"> Detective Conan</span></a></li>
+<li><a href="/truyen/conan/tham-tu-conan-chap1-2" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('conanch1_2'); return false;"><i id="checkbox-conanch1_2" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Thám Tử Lừng Danh Conan<span class="subtitle"> Detective Conan Chap 1-2</span></a></li>
+<li><a href="/truyen/conan/tham-tu-conan-chap1-3" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('conanch1_3'); return false;"><i id="checkbox-conanch1_3" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Thám Tử Lừng Danh Conan<span class="subtitle"> Detective Conan Chap 1-3</span></a></li>
+<li><a href="/truyen/conan/tham-tu-conan-chap1-4" data-target="#" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="handle_switch_comic('conanch1_4'); return false;"><i id="checkbox-conanch1_4" class="material-icons" style=" color: red; ">check_box_outline_blank</i> Thám Tử Lừng Danh Conan<span class="subtitle"> Detective Conan Chap 1-4</span></a></li></ul></li>
+<li><a href="#navbar" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="show_dialog('.site-info.jumbotron');">Giới thiệu</a></li>
+<li><a href="https://goo.gl/OHOvsA" target="_blank" onclick="sendGaEvent('FB non-help');">Facebook</a></li></ul></div>
+          <ul class="nav navbar-nav nav-login">
+            <li id="quiz-count" class="initial-hidden"><a href="#navbar" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="MeoU.popquiz.handle_click_quiz();">Quiz <span class="badge badge-notify">0</span></a></li>
+            <li class="login-link">
+              <a href="#" role="button" onclick="MeoU.firebase.toggleSignIn()">Đăng nhập</a>
+              <a href="#" role="button" onclick="MeoU.firebase.toggleSignIn()" class="facebook-f-wrapper"><span class="facebook-f">f</span></a>
+            </li>
+            <li role="presentation" class="account-link dropdown initial-hidden">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">   Account<span class="caret"></span>   </a><a class="user-image" href="#" title="Your profile">you</a>
+              <ul class="dropdown-menu">
+                <li><a href="#navbar" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="">Hi <span class="user-displayName"></span>!</a></li>
+                <!--li><a href="#navbar" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="">Email: <span class="user-email"></span></a></li-->
+                <li><a href="#navbar" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="">Your score: <span class="user-score label label-success"></span> points</a></li>
+                <li><a href="#navbar" data-toggle="collapse" aria-expanded="false" aria-controls="navbar" onclick="MeoU.firebase.toggleSignIn()">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="modal-backdrop gloss-overlay" style="display: none">
+      <div class="close-dialog" style="
+    top: 5px;
+    right: 5px;
+    background-color: #e05555;
+    border-radius: 12px;
+"><a href="#" onclick="add_mode_to_body_class('normal'); close_dialog('.modal-backdrop.gloss-overlay')"><i class="material-icons">clear</i></a></div>
+      <div class="gloss-content-wrapper">
+      </div>
+      <div class="gloss-overlay-bottom"></div>
+    </div><!-- gloss-overlay -->
+    <div class="modal-backdrop quiz-overlay initial-hidden" onclick="MeoU.popquiz.handle_click_background();">
+      <div class="quiz-question-wrapper" onclick="event.stopPropagation()">
+      </div>
+      <div id="score" class="initial-hidden"><span><i class="material-icons">error</i> Wrong!</span> 0 / 10 </div>
+      <div id="answer-eval-result" class="initial-hidden"><i class="material-icons">done</i></div>
+    </div><!-- quiz-overlay -->
+    <div class="player-debug">
+      <div class="unplayable initial-hidden">
+        Error playing audio! :(
+        <div class="audio-more-info"><a href="#" target="_blank" onclick="sendGaEvent('Xem YT')"><i class="material-icons">arrow_forward</i> Xem clip trên YouTube</a></div>
+      </div>
+      <div class="playing">
+        <a href="#" onclick="return MeoU.player.unpause()"><i class="material-icons">play_circle_filled</i></a> <a href="#" onclick="MeoU.player.pause()"><i class="material-icons">pause</i></a>  <a href="#" onclick="MeoU.player.stop()"><i class="material-icons">stop</i></a>
+        <div class="audio-more-info"><a href="#" target="_blank" onclick="sendGaEvent('Xem YT')"><i class="material-icons">arrow_forward</i> Xem clip trên YouTube</a></div>
+        <div class="ios-warning initial-hidden">iPhone/iPad không hỗ trợ chức năng nghe truyện tự động. Vui lòng bấm vào YouTube Player.</div>
+      </div>
+    </div>
+    
+    <div class="manga container" style="height: 100vh;">
+      <div id="points" class="label">0 points</div>
+
+      <div class="starter-template">
+
+        <div class="jumbotron coming-soon" style="display: none;">
+          <div class="close-dialog"><a href="#" onclick="close_dialog('.jumbotron.coming-soon')"><i class="material-icons">clear</i></a></div>
+          <h1>Coming soon</h1>
+          <p class="lead">
+          Mèo Ú vẫn đang hoạt động hết công suất để ra những trang truyện tiếp theo !
+          </p>
+          <p>Các bạn  hãy nhanh tay đăng ký theo dõi trang <a class="" href="https://www.facebook.com/MeoUEnglish/" role="button" target="_blank" onclick="sendGaEvent('FB page')">Facebook Méo Ú English</a> hoặc để lại email dưới đây nhằm chắc chắn nhận được thông báo và mã code để đọc những trang truyện mới hoàn toàn miễn phí ! 
+          </p>
+          <p>Bất kể khi nào bạn cũng có thể comment trên <a class="" href="https://www.facebook.com/MeoUEnglish/" role="button" target="_blank" onclick="sendGaEvent('FB page')">Facebook</a> về truyện mà các bạn muốn đọc cho Mèo Ú biết nhé !
+          </p>
+          <!-- Are you interested in learning with this manga? Be sure to go on <a class="btn btn-primary btn-lg" href="https://www.facebook.com/MeoUEnglish/" role="button" target="_blank" onclick="sendGaEvent('FB page')">Meo U English's Facebook</a> and request it in the comments! Or Like MeoUEnglish on Facebook to know when this manga is available! -->
+          <!-- Begin MailChimp Signup Form -->
+          <!-- link href="//cdn-images.mailchimp.com/embedcode/advanced-10_7.css" rel="stylesheet" type="text/css" -->
+          <div id="mc_embed_signup" class="well">
+            <div class="form-group is-empty">
+              <form action="//barcampsaigon.us9.list-manage.com/subscribe/post?u=bbce4a169ba809cbe874a2f34&amp;id=f4859ba2dd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <label for="inputEmail" class="col-md-2 control-label">Để lại email dưới đây</label>
+
+                <div class="col-md-10">
+                  <input type="email" class="form-control" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Địa chỉ email" style="cursor: auto;">
+                </div>
+              <span class="material-input"></span></div>
+              <div id="mc_embed_signup_scroll">
+<!--
+                <div class="mc-field-group">
+                  <label for="mce-EMAIL">Email Address </label>
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+-->
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none; color: #4caf50;">ALMOST FINISHED GOES HERE</div>
+                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bbce4a169ba809cbe874a2f34_f4859ba2dd" tabindex="-1" value=""></div>
+                <div>Sau khi bấm nút theo dõi, bạn hãy kiểm tra mail và bấm vào link xác nhận để hoàn thành việc đăng ký của bạn</div>
+                <div class="clear"><input type="submit" onclick="sendGaEvent('MailChimp subscribe');" value="Đăng ký theo dõi" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-raised"></div>
+              </div>
+            </form>
+          </div>
+          <!--End mc_embed_signup-->
+
+          <div>
+            <p style="text-align: right;"><a class="btn btn-primary btn-lg" href="https://www.facebook.com/MeoUEnglish/" role="button" target="_blank" onclick="sendGaEvent('FB page')">Facebook</a> <a class="btn btn-primary btn-lg" href="#" onclick="close_dialog('.site-info.jumbotron')">Đóng</a></p>
+          </div>
+        </div>
+
+        <div class="jumbotron buttons-info">
+          <div class="close-dialog"><a href="#" onclick="close_dialog('.buttons-info.jumbotron')"><i class="material-icons">clear</i></a></div>
+          <h2>Hướng dẫn</h2>
+          <div class="explain-button">
+            <ui class="list-group">
+             <li class="list-group-item"><i class="material-icons">assignment</i> = Chú giải, tìm hiểu từng cái từ vựng</li>
+             <li class="list-group-item"><i class="material-icons">record_voice_over</i> = Nghe giọng nói tiếng Anh</li>
+             <li class="list-group-item"> <span class="glyphicon glyphicon glyphicon glyphicon-arrow-left" aria-hidden="true"></span> = Trang trước</li>
+             <li class="list-group-item"> <i class="material-icons" style="color: #555;">trending_down</i> = Khung truyện tiếp theo</li>
+             <li class="list-group-item"> <span class="glyphicon glyphicon glyphicon glyphicon-arrow-right" aria-hidden="true"></span> = Trang tiếp theo</li>
+             <li class="list-group-item">  <strong>e</strong>: để xem bản tiếng Anh</li>
+             <li class="list-group-item">  <strong>v</strong>: để xem bản tiếng Việt</li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="jumbotron pagemark-info initial-hidden">
+          <div class="close-dialog"><a href="#" onclick="close_dialog('.pagemark-info.jumbotron')"><i class="material-icons">clear</i></a></div>
+          <div>
+            <p class="text-warning">Hệ thống ghi nhận lần trước bạn đang đọc truyện <span class="last-comic"></span> tại trang <span class="last-page"></span>. Bạn có muốn quay lại trang đó không ?</p>
+          </div>
+          <div>
+            <p style="text-align: right;"><a class="return-to-pagemark btn btn-primary btn-lg btn-success btn-raised" href="#">Có</a> <a class="btn btn-primary btn-lg" href="#" onclick="close_dialog('.pagemark-info.jumbotron')">Khóng</a></p>
+          </div>
+        </div>
+        <div class="non-jumbotron comic-info" style="">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <div class="close-dialog" style="top: -4px;"><a href="#" onclick="close_dialog('.comic-info')"><i class="material-icons">clear</i></a></div>
+              <h2 class="panel-title">Doraemon Plus Vol 1 Chap 6: Socola Đoàn Kết</h2>
+            </div>
+            <div class="panel-body">
+              <p>When Nobita and friends are bullied by Giant, it's up to Doraemon to help Nobita fend off the big boy.</p>
+            </div>
+          </div>
+        </div>
+        <div class="jumbotron site-info" style="display: none;">
+          <div class="close-dialog"><a href="#" onclick="close_dialog('.site-info.jumbotron')"><i class="material-icons">clear</i></a></div>
+          <h1>Mèo Ú English là gì?</h1>
+             <p class="lead">
+              Bạn rất yêu thích Chú Mèo Máy và muốn học tiếng Anh? Ai mà không thích Doraemon phải không nào? Kể từ bây giờ bạn vừa có thể đọc truyện thoả thích vừa có thể học tiếng Anh một cách đơn giản và hiệu quả nhất!
+            </p>
+
+          <p>Hãy cùng vui học tiếng Anh với chú Mèo Máy Doraemon thân thiện vui tính tại MeoUEnglish.com nhé!</p>
+
+          <p>Đầu tiên, hãy đọc các trang tiếng Anh. Khi gặp từ mới, hãy click  vào nút “Từ vựng”. Nếu bạn vẫn không hiểu nghĩa , click “ Vietnamese”  để xem bản dịch. Nếu bạn vẫn còn bất cứ thắc mắc nào, hãy bình luận <a href="https://goo.gl/OHOvsA" target="_blank" onclick="sendGaEvent('FB non-help')">dưới đây</a> và chúng tôi sẽ giúp bạn.
+</p>
+
+          <p>Click vào mũi tên để qua trang tiếp theo hoặc quay lại trang trước. Lưu ý rằng, bạn hãy đọc từ phải sang trái khi đọc Manga Nhật nha!</p>
+          <p class="lead">Các phím tắt: <br> 
+          Nhấn phím <strong>e</strong> để xem bản tiếng Anh<br>
+          Nhấn phím <strong>w</strong> để xem nghĩa tiếng Việt cho mỗi từ tiếng Anh<br>
+          Nhấm phím <strong>v</strong> để xem bản tiếng Việt<br>
+          </p>
+
+          <p class="signup-message">Hãy Đăng Ký/Sign up (Thích/Like) ở đây để tiếp tục đọc phần thú vị còn lại của câu chuyện nhé!</p>
+          <div class="fb-like" data-href="https://www.facebook.com/MeoUEnglish/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+          <p><a href="https://www.facebook.com/MeoUEnglish/" target="_blank" onclick="sendGaEvent('FB page')">Xem MeoUEnglish trên Facebook</a></p>
+          <div>
+            <p style="text-align: right;;"><a class="btn btn-primary btn-lg" href="https://www.facebook.com/MeoUEnglish/" role="button" target="_blank" onclick="sendGaEvent('FB page')"></a> <a class="btn btn-primary btn-lg" href="#" onclick="close_dialog('.site-info.jumbotron')">Đóng</a></p>
+          </div>
+        </div>
+
+        <div class="jumbotron quick-info keyboard-tips" style="">
+          <div class="close-dialog"><a href="#" onclick="close_dialog('.quick-info.jumbotron')"><i class="material-icons">clear</i></a></div>
+          <p class="lead">Keyboard tips (Click <a href="#" onclick="show_dialog('.site-info.jumbotron');">About</a> for more info): <br> 
+          '<strong>e</strong>':  show <strong>E</strong>nglish original / hiển thị tiếng Anh <br>
+          '<strong>v</strong>':  show Vietnamese / hiển thị tiếng Việt<br>
+
+          <span class="glyphicon glyphicon glyphicon glyphicon-arrow-left" aria-hidden="true"></span>:  previous page / trang trước<br>
+          <span class="glyphicon glyphicon glyphicon glyphicon-arrow-right" aria-hidden="true"></span>:  next page / trang tiếp theo<br>
+          </p>
+        </div>
+
+      </div>
+
+    <div class="main">
+     <!-- these get generated now <div class="daicohen-paneboxes"></div>
+     <div class="doraplus1-paneboxes">
+     </div> -->
+
+      <div class="panebox" id="audio-unavailable"><i class="material-icons">volume_off</i>
+        <p>Sorry, audio for this page isn't ready yet!</p>
+        <p>Sorry bạn! Ghi âm thanh của trang này chưa có sẵn!</p></div>
+      <div class="jumbotron-wrapper">
+        <div class="jumbotron gloss-unavailable" style="display: none;">
+          <div class="close-dialog"><a href="#" onclick="close_dialog('.gloss-unavailable.jumbotron')"><i class="material-icons">clear</i></a></div>
+          <div class="" id="gloss-unavailable">
+            <p>Sorry, vocabulary for this page isn't ready yet!</p>
+            <p>Sorry bạn! Từ vựng của trang này chưa có sẵn!</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-backdrop pron-info tutor-info initial-hidden" onclick="MeoU.keys_enabled = true;close_dialog('.pron-info.tutor-info.modal-backdrop')">
+        <div class="jumbotron" onclick="event.stopPropagation();"  style="    background-color: #43962d;
+    color: white;
+overflow: scroll;
+height: 90%;
+width: 95%;
+    z-index: 10;">
+          <div class="close-dialog"><a href="javascript:void(0)" onclick="MeoU.keys_enabled = true;close_dialog('.pron-info.tutor-info.modal-backdrop')"><i class="material-icons">clear</i></a></div>
+          <div id="tutor-copytext">
+            <p>A 15 minute session with a <strong>native</strong> English pronunciation coach makes a big difference in students' English.</p>
+            <p>Your English hearing and reading skills are good enough to read this. How good is your pronunciation? Can a <strong>foreigner</strong> understand your speech? Most students who can read English well struggle with pronunciation and a bad teacher will create bad <strong>pronunciation</strong> habits. We are offering pronunciation coaching sessions which can be completed in as little as 15 minutes which will greatly improve your pronunciation faster than on your own.</p>
+            <p>Leave your name and email and we will contact you for a <strong>free</strong> assessment and discuss your free trial session to see if pronunciation coaching is for you.</p>
+          </div>
+          <form class="form-horizontal" role="form" _lpchecked="1">
+           <div id="tutor-form-p1">
+            <div class="form-group">
+              <label class="col-md-2 control-label">Bạn đang ở:</label>
+
+              <div class="col-md-10">
+                <div class="radio radio-primary">
+                  <label>
+                    <input type="radio" name="optionsCity" checked="" value="HCMC">
+                    Tp.HCM
+                  </label>
+                </div>
+                <div class="radio radio-primary">
+                  <label>
+                    <input type="radio" name="optionsCity" value="Hanoi">
+                    Hà Nội
+                  </label>
+                </div>
+                <div class="radio radio-primary">
+                  <label>
+                    <input type="radio" name="optionsCity" value="Other">
+                    Khác
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inputName" class="col-md-2 control-label">Họ tên</label>
+
+              <div class="col-md-10">
+                <input type="text" class="form-control" id="inputName" placeholder="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail" class="col-md-2 control-label">Email</label>
+
+              <div class="col-md-10">
+                <input type="email" class="form-control" id="inputEmail" placeholder="">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="textMessage" class="col-md-2 control-label">Message</label>
+
+              <div class="col-md-10">
+            <p>Bạn đang gặp phải vấn đề gì?</p>
+                <textarea class="form-control" rows="3" id="textMessage"></textarea>
+                <span class="help-block">Tell us about you and your problems.</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-10 col-md-offset-2">
+                <button id="btn-gui-tutor" class="btn btn-primary">Gửi</button>
+              </div>
+            </div>
+            <div class="saving-tutor initial-hidden">Saving your information...</div>
+           </div>
+         </div>
+       </div><!-- modal-backdrop -->
+       <div class="jumbotron signup-info" style="display: none;">
+        <div class="close-dialog"><a href="#" onclick="close_dialog('.signup-info.jumbotron')"><i class="material-icons">clear</i></a></div>
+        <!-- p class="signup-message">Hãy góp ý cho chúng tôi bằng cách trả lời 5 câu hỏi ở trang tiếp theo ở đây để tiếp tục đọc phần thú vị còn lại của câu chuyện nhé!</p -->
+
+        <p>Ghi mã số:</p>
+        <div class="well">
+          <div id="nhap-ma-error" class="form-group has-error is-empty" style="display: none;"><label class="control-label" for="inputError">Wrong code</label></div>
+          <div id="nhap-ma-success" class="form-group has-success is-empty" style="display: none;"><label class="control-label" for="inputSuccess">Valid code! :D</label></div>
+          <div class="input-group">
+            <input id="ghi-ma-so" type="text" class="form-control" placeholder="Ghi mã số và click [Nhập mã] để xem trang tiếp theo!">
+            <span class="input-group-btn">
+              <button id="btn-nhap-ma" class="btn btn-primary" type="button">Nhập mã</button>
+            </span>
+          </div><!-- /input-group -->
+        </div>
+
+        <p>Không có mã số? Tìm trên <a href="https://www.facebook.com/MeoUEnglish/" target="_blank" onclick="sendGaEvent('FB page')">Facebook MeoUEnglish</a></p>
+
+        <div class="fb-like" data-href="https://www.facebook.com/MeoUEnglish/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        <p>Hãy thích và góp ý kiến tại Facebook để cập nhật tin mới nhất từ Mèo Ú English khi tập mới phát hành và lấy mã số. </p>
+
+        <p style="float: right;"><a class="btn btn-primary btn-lg" href="https://www.facebook.com/MeoUEnglish/" role="button" target="_blank" onclick="sendGaEvent('FB page')">Learn more</a> <a class="btn btn-primary btn-lg" href="#" onclick="close_dialog('.signup-info.jumbotron')">Đóng</a></p>
+       </div>
+
+      <div class="jumbotron fbquestion-info" style="display: none;">
+        <div class="close-dialog"><a href="#" onclick="close_dialog('.fbquestion-info.jumbotron')"><i class="material-icons">clear</i></a></div>
+        <h1>Bạn đang thắc mắc về từ vựng hay ngữ pháp? Đặt câu hỏi trên Facebook!</h1>
+        <p class="signup-message">Đặt câu hỏi trên <a class="btn btn-primary btn-lg" href="https://www.facebook.com/MeoUEnglish/" role="button" target="_blank" onclick="sendGaEvent('FB page')">Facebook MeoUEnglish</a> !</p>
+        <p class="signup-message">Hãy Đăng Ký/Sign up ở đây để tiếp tục đọc phần thú vị còn lại của câu chuyện nhé!</p>
+        <div class="fb-like" data-href="https://www.facebook.com/MeoUEnglish/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        <p>Hãy thích và góp ý kiến tại Facebook để cập nhật tin mới nhất từ Mèo Ú English khi tập mới phát hành. <a href="https://www.facebook.com/MeoUEnglish/" target="_blank" onclick="sendGaEvent('FB page')">Like! MeoUEnglish Facebook</a></p>
+
+        <p style="float: right;"><a class="btn btn-primary btn-lg" href="https://www.facebook.com/MeoUEnglish/" role="button" target="_blank" onclick="sendGaEvent('FB page')">Facebook</a> <a class="btn btn-primary btn-lg" href="#" onclick="close_dialog('.fbquestion-info.jumbotron')">Đóng</a></p>
+      </div>
+
+      <div class="jumbotron general-help" style="display: none;">
+        <div class="close-dialog"><a href="#" onclick="close_dialog('.general-help.jumbotron')"><i class="material-icons">clear</i></a></div>
+        <p>Click vào mũi tên (<span class="glyphicon glyphicon glyphicon glyphicon-arrow-left" aria-hidden="true"></span>, <span class="glyphicon glyphicon glyphicon glyphicon-arrow-right" aria-hidden="true"></span>) để qua trang tiếp theo hoặc quay lại trang trước. Lưu ý rằng, bạn hãy đọc từ phải sang trái khi đọc Manga Nhật nha!</p>
+        <p>Hãy thích và góp ý kiến tại Facebook để cập nhật tin mới nhất từ Mèo Ú English khi tập mới phát hành. <a href="https://www.facebook.com/MeoUEnglish/" target="_blank" onclick="sendGaEvent('FB page')">Like! MeoUEnglish Facebook</a></p>
+
+        <p style="float: right;"><a class="btn btn-primary btn-lg" href="https://www.facebook.com/MeoUEnglish/" role="button" target="_blank" onclick="sendGaEvent('FB page')">Facebook</a> <a class="btn btn-primary btn-lg" href="#" onclick="close_dialog('.general-help.jumbotron')">Đóng</a></p>
+      </div>
+    </div><!-- main -->
+      <div class="help-rotate">
+        <i class="material-icons">screen_rotation</i><p>Xoay màn hình điện thoại để xem tốt hơn</p>
+      </div>
+    </div>
+    <div class="controls btn-group">
+      <button id="btn-page-prev" type="button" class="btn btn-default btn-page-prev btn-raised" onclick="prev_page()" ><span class="glyphicon glyphicon glyphicon glyphicon-arrow-left" aria-hidden="true"></span></button>
+      <button id="btn-layer1" type="button" class="btn btn-default btn-raised" onclick="click_english()" >English</button>
+      <button id="btn-layer2"  type="button" class="btn btn-default btn-raised" onclick="click_words()" >Từ vựng</button>
+      <button id="btn-layer3"  type="button" class="btn btn-default btn-raised tooltip" title="Xem bản tiếng Việt" onclick="click_viet()" >Việt</button>
+      
+      <button id="btn-next-pane" type="button" class="btn btn-default btn-raised tooltip" title="Khung truyện tiếp theo" onclick="next_pane()" >N <i class="material-icons">trending_down</i> </button>
+      <button id="btn-page-next" type="button" class="btn btn-default btn-page-next btn-raised tooltip" title="Qua trang tiếp" onclick="next_page()" ><span class="current-page">1</span> <span class="glyphicon glyphicon glyphicon glyphicon-arrow-right" aria-hidden="true"></span> <span class="next-page">2</span></button>
+      <!-- button type="button" class="btn btn-default btn-raised" onclick="zoom(this, event)" ><i class="material-icons">zoom_in</i></button -->
+    </div>
+    <div class="cache-layer-2"></div>
+    <div class="cache-layer-3"></div>
+    <div class="jumbotron youtube-wrapper initial-hidden">
+      <div class="close-dialog"><a href="#" onclick="close_dialog('.youtube-wrapper.jumbotron')"><i class="material-icons">clear</i></a></div>
+      <!-- p class="ios-warning">iPhone/iPad không hỗ trợ chức năng nghe truyện tự động. Vui lòng bấm vào YouTube Player ở phía dưới. </p -->
+      <div id="player"></div>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-1.12.3.js" ></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.0/howler.js"></script>
+    <script src="/js/jquery.tooltipster.min.js"></script>
+    <script src="/bsmd/js/material.js"></script>
+    <script src="/bsmd/js/ripples.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+  <script>
+$(document).ready(onReady);
+
+if (istracking()) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76851629-1', 'auto');
+  sendOriginalGaPageView(MeoU.page);
+}
+
+    </script>
+  </body>
+</html>
+
